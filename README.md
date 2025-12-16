@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍰 C-Sweet Shop
 
-## Getting Started
+A simple **e-commerce learning project** built with **Next.js (App Router)** and **React**.
+This project is part of my learning journey where I build while learning step by step.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Tech Stack
+
+- **Next.js** (App Router)
+- **React**
+- **Tailwind CSS**
+- **JavaScript (ES6)**
+- **Git & GitHub**
+
+---
+
+## 📌 Current Features (So Far)
+
+### 🛍️ Products
+
+- Products are displayed as cards
+- Each product includes:
+
+  - Image (placeholder)
+  - Name
+  - Description
+  - Price
+  - "Add to Cart" button
+
+### 🛒 Cart
+
+- Add products to cart
+- Remove individual products from cart
+- Clear all cart items
+- Display:
+
+  - Cart items
+  - Number of items in cart
+  - Total price (calculated dynamically)
+
+---
+
+## 📂 Project Structure (Current)
+
+```
+app/
+├── page.js                # Home page (products + cart)
+├── components/
+│   └── ProductCard.js     # Reusable product card component
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧠 What I Have Learned
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Creating a Next.js project
+- Using **Client Components** (`"use client"`)
+- React state with `useState`
+- Passing props between components
+- Handling events (`onClick`)
+- Rendering lists using `map()`
+- Updating state immutably
+- Basic cart logic
+- Tailwind CSS utility classes
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 How to Run the Project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm install
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Then open:
 
-## Deploy on Vercel
+```
+http://localhost:3000
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔜 Planned Next Steps
+
+- Add quantity for cart items
+- Prevent duplicate cart items
+- Improve UI & responsiveness
+- Create product details page
+- Use Next.js `Image` component
+- Persist cart using localStorage
+- Add checkout page
+- Prepare backend (later)
+
+---
+
+## 🎯 Goal of This Project
+
+To build a **real e-commerce application for C-Sweet** while learning:
+
+- React
+- Next.js
+- Clean code
+- Real-world frontend logic
+
+---
+
+## 👤 Author
+
+**Waleed Nabel**
+Learning React & Next.js by building real projects 🚀
